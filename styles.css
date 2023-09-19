@@ -39,6 +39,19 @@ header h1  {
     align-items: center;
 }
 
+.likes {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.caption {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+}
+}
 .contanier {
     width: 600px;
     margin:auto;
@@ -71,3 +84,8 @@ scroll-snap-align: x mandatory ;
 margin: auto;
 }
 
+
+
+p {
+    margin: 0;
+}
